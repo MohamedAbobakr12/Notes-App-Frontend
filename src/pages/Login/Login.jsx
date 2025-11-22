@@ -6,8 +6,8 @@ import { validateEmail } from '../../utils/helper';
 import axiosInstance from '../../utils/axiosInstance';
 
 const Login = () => {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("testuser@gmail.com");
+    const [password, setPassword] = useState("testuser0123");
     const [error, setError] = useState(null);
 
     const navigate = useNavigate()
